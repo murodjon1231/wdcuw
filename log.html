@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSON</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="container2">
+            <div class="row">
+                <div class="logo">
+                    <a href="./index.html"><img src="./logo.png" alt="Logo"></a>
+                </div>
+                <div class="theme-togle">
+                    <button id="themeToggle" class="btm11">Dark-mode</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <form id="loginForm">
+            <div class="container2">
+                <div class="row-odam">
+                    <div class="logo">
+                        <a href="./index.html"><img class="form_2" src="./logo.png" alt="Form Logo"></a>
+                    </div>
+                </div>
+
+                <h1 class="pp">Auto-Parts ga xush kelibsiz</h1>
+                <br>
+
+                <input type="text" id="username" class="ff" placeholder="Modme Id or Phone number">
+                <div class="password-container">
+                    <input type="password" id="password" class="yy" placeholder="Password">
+                    <button type="button" id="hide"><img src="Eye.svg" alt=""></button>
+                </div>
+                <a href="#">QR code orqali kirish</a>
+
+                <div class="row-footer">
+                    <div class="row-2">
+                        <button type="button" id="confirmButton" class="sendBtn" onclick="submitForm()">Подтвердить</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="theme.js"></script>
+
+</body>
+</html>
