@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const users = [
         { name: "Murod", surname: "Shavkatov",  password: "0890" },
         { name: "Abdumalik", surname: "Ergashev",  password: "1234" },
-        { name: "Bobir", surname: "",  password: "0000" }
+        { name: "Bobur", surname: "Rahxmatov",  password: "0000" },
+        { name: "Bakhodir", surname: " Abdukakhkhorov",  password: "0000" },
+        { name: "Davron", surname: "Rasulyev",  password: "1111" }
     ];
 
     function checkInputs() {
@@ -28,8 +30,9 @@ function submitForm() {
     const users = [
         { name: "Murod", surname: "Shavkatov",  password: "0890" },
         { name: "Abdumalik", surname: "Ergashev",  password: "1234" },
-        { name: "Bobur", surname: "",  password: "0000" }
-
+        { name: "Bobur", surname: "Rahxmatov",  password: "0000" },
+        { name: "Bakhodir", surname: " Abdukakhkhorov",  password: "0000" },
+        { name: "Davron", surname: "Rasulyev",  password: "1111" }
     ];
 
     const user = users.find(
