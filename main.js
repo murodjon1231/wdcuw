@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const users = [
         { name: "Murod", surname: "Shavkatov",  password: "0890" },
         { name: "Abdumalik", surname: "Ergashev",  password: "1234" },
-        { name: "Bobur", surname: "Rahxmatov",  password: "0000" },
+        { name: "Bobur", surname: "Rahxmatov",  password: "2222" },
         { name: "Bakhodir", surname: " Abdukakhkhorov",  password: "0000" },
         { name: "Davron", surname: "Rasulyev",  password: "1111" }
     ];
@@ -30,7 +30,7 @@ function submitForm() {
     const users = [
         { name: "Murod", surname: "Shavkatov",  password: "0890" },
         { name: "Abdumalik", surname: "Ergashev",  password: "1234" },
-        { name: "Bobur", surname: "Rahxmatov",  password: "0000" },
+        { name: "Bobur", surname: "Rahxmatov",  password: "2222" },
         { name: "Bakhodir", surname: " Abdukakhkhorov",  password: "0000" },
         { name: "Davron", surname: "Rasulyev",  password: "1111" }
     ];
