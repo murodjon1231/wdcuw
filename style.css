@@ -11,7 +11,8 @@
 
 nav {
     padding: 45px 0;
-    border: 2px solid #DEDBDB
+    border: 2px solid #DEDBDB;
+    width: 100%;
 }
 
 
@@ -463,88 +464,3 @@ nav {
     margin: 0 auto;
     color: var(--text-color);
 }
-/* -------- Telefonlar uchun (kichik ekranlar, < 576px) -------- */
-@media (max-width: 576px) {
-    body {
-      font-size: 14px; /* Matn hajmini moslash */
-    }
-  
-    header {
-      flex-direction: column; /* Elementlarni vertikal joylashtirish */
-      text-align: center; /* Markazlashgan joylashuv */
-    }
-  
-    .main-content {
-      padding: 10px; /* Ichki masofa */
-    }
-  
-    .card {
-      width: 100%; /* Kartochkalar kengaytirilgan */
-      margin-bottom: 20px; /* Kartochkalar oralig'i */
-    }
-  }
-  
-  /* -------- Planshetlar uchun (o'rta ekranlar, 576px - 768px) -------- */
-  @media (min-width: 577px) and (max-width: 768px) {
-    body {
-      font-size: 16px; /* Matn hajmini biroz kattalashtirish */
-    }
-  
-    header {
-      flex-direction: row; /* Elementlarni gorizontal joylashtirish */
-      justify-content: space-between; /* Oralig'ni tenglashtirish */
-    }
-  
-    .main-content {
-      padding: 20px; /* Ichki masofa */
-    }
-  
-    .card {
-      width: 48%; /* Yonma-yon ikkita kartochka */
-      margin: 1%; /* Kartochkalar oralig'i */
-    }
-  }
-  
-  /* -------- O'rta ekranlar uchun (769px - 992px) -------- */
-  @media (min-width: 769px) and (max-width: 992px) {
-    body {
-      font-size: 18px; /* Matn hajmini biroz kattalashtirish */
-    }
-  
-    header {
-      justify-content: space-between; /* Gorizontal joylashuv */
-      padding: 10px 20px; /* Ichki masofa */
-    }
-  
-    .main-content {
-      padding: 30px; /* Katta ichki masofa */
-    }
-  
-    .card {
-      width: 30%; /* Uchta kartochka yonma-yon */
-      margin: 1.5%; /* Kartochkalar oralig'i */
-    }
-  }
-  
-  /* -------- Katta ekranlar uchun (desktop, > 992px) -------- */
-  @media (min-width: 993px) {
-    body {
-      font-size: 20px; /* Standart kattalik */
-    }
-  
-    header {
-      flex-direction: row; /* Gorizontal joylashuv */
-      justify-content: space-between; /* Oralig'ni tenglashtirish */
-      padding: 20px; /* Ichki masofa */
-    }
-  
-    .main-content {
-      padding: 40px; /* Ichki masofa kengaytirilgan */
-    }
-  
-    .card {
-      width: 23%; /* To'rtta kartochka yonma-yon */
-      margin: 1%; /* Kartochkalar oralig'i */
-    }
-  }
-  

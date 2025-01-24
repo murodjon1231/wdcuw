@@ -11,6 +11,79 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+<style>
+    @media screen and (max-width: 430px) {
+        .container {
+            flex-direction: column;
+        }
+        #addProductForm{
+            width: 400px;
+        }
+        #productList{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card{
+            width: 300px;
+        }
+        .modal-dialog{
+            width: 300px;
+        }
+        .divcha{
+            width: 400px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .container {
+            flex-direction: column;
+        }
+        #addProductForm{
+            width: 400px;
+        }
+        #productList{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card{
+            width: 270px;
+        }
+        .divcha{
+            width: 300px;
+        }
+        .modal-dialog{
+            width: 300px;
+        }
+    }
+
+    @media  screen and (max-width: 375px) {
+        .container {
+            flex-direction: column;
+        }
+        #addProductForm{
+            width: 400px;
+        }
+        #productList{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card{
+            width: 280px;
+        }
+        .divcha{
+            width: 320px;
+        }
+        .modal-dialog{
+            width: 300px;
+        }
+    }
+    .divcha{
+        width: 900px;
+    }
+</style>
 <body>
 <header>
     <nav>
@@ -41,7 +114,6 @@
         <div class="container mt-5">
 
             <div>
-                <h3>Add New Product</h3>
                 <form id="addProductForm">
                     <input type="text" id="productName" placeholder="Product Name" class="form-control mb-2" required>
                     <input type="text" id="productDescription" placeholder="Description" class="form-control mb-2" required>
@@ -64,7 +136,7 @@
 
 <div class="modal fade" id="editProductModal" tabindex="-1" aria-labelledby="editProductModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-        <div style="position: relative;display: flex;flex-direction: column;width: 1000px;color: var(--bs-modal-color);pointer-events: auto;background-color: var(--bs-modal-bg);background-clip: padding-box;border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);border-radius: var(--bs-modal-border-radius);outline: 0;left: -220px;" class="modal-content">
+        <div class="divcha" style="position: relative;display: flex;flex-direction: column;color: var(--bs-modal-color);pointer-events: auto;background-color: var(--bs-modal-bg);background-clip: padding-box;border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);border-radius: var(--bs-modal-border-radius);outline: 0;left: -220px;" class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="editProductModalLabel">Edit Product</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
